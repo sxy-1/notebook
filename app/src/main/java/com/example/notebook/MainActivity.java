@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 //                   String str = result.getData().getStringExtra("data");
                         this.data.clear();
                         this.data.addAll(dbHelper.query());
-
+//test
                         adapter.notifyDataSetChanged();
                         Log.d("cao", "ok1");
                     } else {
